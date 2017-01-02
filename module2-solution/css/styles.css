@@ -14,7 +14,7 @@ h1 {
   font-size: 1.75em;
   font-weight: bold;
 }
-#container {
+.container {
   border: 1px solid #000;
   background-color: #999;
   height: auto;
