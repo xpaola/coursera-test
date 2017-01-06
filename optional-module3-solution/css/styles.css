@@ -73,8 +73,8 @@ body {
 .menu-text h2 { /* Section title */ 
 }
 
-.menu-text .container-fluid {
-  border: 3px solid #894d61;
+.menu-text .container-fluid { /* Section Text */
+  /*border: 3px solid #894d61;*/
   margin: 10px 0px 10px 0px;
   padding: 5px;
   background-color: #C1A291;
