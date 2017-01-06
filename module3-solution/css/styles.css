@@ -1,0 +1,112 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #260C1D;
+  font-family: 'Averia Sans Libre', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #683B4A;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header {
+  height: 70px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Brand name */
+  color: #CA3A3B;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list { /* Dropdown navbar */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: #260C1D;
+  text-align: center;
+  font-size: 1.8em;
+  border-bottom: 1PX solid #fff;
+}
+#nav-list a:hover {
+  background-color: #F2F4F0;
+  color: #A95E58;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #F2F4F0;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+
+
+/* HOME PAGE */
+
+.menu-title h1 { /*Our Menu*/
+  color: #FFF;
+}
+
+.menu-text h2 { /* Chicken */ 
+}
+
+.row {
+  height: auto;
+  border: 0;
+  margin: 30px 20px 30px 20px;
+  background-color: #C1A291;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
+
+@media (max-width: @screen-xs-max) {
+}
+
+
+
+/*FOOTER*/
+.panel-footer {
+  height: 60px;
+  border: 0;
+  background-color: #683B4A;
+}
