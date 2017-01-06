@@ -73,12 +73,29 @@ body {
 .menu-text h2 { /* Section title */ 
 }
 
+.menu-text .container-fluid {
+  border: 3px solid #894d61;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+  background-color: #C1A291;
+}
+
 .row { /* Menu text */
   height: auto;
   border: 0;
-  margin: 30px 20px 30px 20px;
-  background-color: #C1A291;
+  margin: 20px 5px 20px 5px;
 }
+
+.backtotop a { /*Back to Top link*/
+  color: #683B4A;
+  font-weight: bold;
+}
+
+.backtotop a:hover, .backtotop a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
 
 /*FOOTER*/
 .panel-footer {
